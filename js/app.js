@@ -50,9 +50,9 @@ switch(music){
 }
 var sub = prompt('Is physic my fav subject?');
 sub =sub.toLowerCase();
-console.logs (sub);
+console.log (sub);
 if (sub=='yes'||sub=='y'){
-    alert('well it seems strang but it was my fav back then');
+    alert('well it seems strange but it was my fav at school');
 }else{
-alert ('Now you know me ,Welcome to my page');
+alert ('Now you know me well ,Welcome to my page');
 }
