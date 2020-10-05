@@ -53,6 +53,6 @@ sub =sub.toLowerCase();
 console.log (sub);
 if (sub=='yes'||sub=='y'){
     alert('well it seems strange but it was my fav at school');
-}else{
-alert ('Now you know me well ,Welcome to my page');
+}else {
+  alert ('Now you know me well,Welcome to my page');
 }
