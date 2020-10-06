@@ -3,7 +3,7 @@
     var uName = prompt ('what\'s your name?');
     console.log(uName);
     alert ('Hello '+ uName +' let\'s play aguessing game about me  hope you gonna enjoy it');
-    alert('plz answer with yes/no or y/n for the next five questions ')
+    alert('plz answer with yes/no or y/n for the next five questions ');
   var i2 = 0;
 var name =prompt ('Am I a person who use nicknames on social media?');
 name = name.toLowerCase();
@@ -22,16 +22,15 @@ console.log (name);
     default :
     alert('plz enter yes/no or y/n');
  }
-
  var pets = prompt(' Do I prefer dogs more than cats?');
  pets = pets.toLowerCase();
  console.log (pets);
- if (pets=='yes'||pets=='y'){
-     alert (' yes that is correct ,so add apoint');
+ if(pets=='yes'||pets=='y'){
+     alert ('yes that is correct ,so add apoint');
       i2 = i2+1;
       console.log(i2);
- }else if(prts=='no'|| pets=='n') {
-    alert ('No that is wrong, Ilove dogs but I can not have one beacuse of my MOM,sad story,LOL');
+ }else if(pets=='no'|| pets=='n'){
+    alert ('No that is wrong, I love dogs but I can not have one beacuse of my MOM,sad story,LOL');
   }else {
     alert('plz enter yes/no or y/n');
  }
@@ -43,7 +42,6 @@ console.log (name);
          i2 = i2 + 1;
          console.log(i2);
  }else if(cro=='no'|| cro=='n') {
-  
      alert ('No this is wrong cause I can make you a present with crochet if you want');
   }else {
     alert('plz enter yes/no or y/n');
@@ -85,10 +83,8 @@ var i=0;
 var nGuess= prompt('from 1 to 10 I have a special lucky number so can you guess it?');
 for (var i= 0; i<4; i++) { 
     if (nGuess>8){
-        // alert ('lower than this');
         nGuess =prompt ('nup it\'s lower than this try it again');
     }else if (nGuess<8){
-        // alert ('wrong it\'s more than this');
         nGuess =prompt ('wrong it\'s more than this ,try it again');
     } else if (nGuess=8){
         alert('great it is my lucky number');
