@@ -3,6 +3,7 @@
     var uName = prompt ('what\'s your name?');
     console.log(uName);
     alert ('Hello '+ uName +' let\'s play aguessing game about me  hope you gonna enjoy it');
+    alert('plz answer with yes/no or y/n for the next five questions ')
   var i2 = 0;
 var name =prompt ('Am I a person who use nicknames on social media?');
 name = name.toLowerCase();
@@ -30,8 +31,7 @@ console.log (name);
       i2 = i2+1;
       console.log(i2);
  }else if(prts=='no'|| pets=='n') {
-    
-     alert ('No that is wrong, Ilove dogs but I can not have one beacuse of my MOM,sad story,LOL');
+    alert ('No that is wrong, Ilove dogs but I can not have one beacuse of my MOM,sad story,LOL');
   }else {
     alert('plz enter yes/no or y/n');
  }
