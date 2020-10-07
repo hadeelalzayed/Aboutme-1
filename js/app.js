@@ -94,10 +94,10 @@ for (var i= 0; i<4; i++) {
     }
 }
     alert (' the correct anewer is 8 ');
-var novel = ['gone with the wind','the perfume','pride and prejudice','the dafenshy code','the animal farm'];
-var uNovel = prompt ('my most liked novels are five novels,can you guess just one of them?').toLowerCase();
-for (var i=0; i<5; i++){
-    console.log(uNovel);
+    for (var i=0; i<5; i++){
+        var uNovel = prompt ('my most liked novels are five novels,can you guess just one of them?').toLowerCase();
+        var novel = ['gone with the wind','the perfume','pride and prejudice','the dafenshy code','the animal farm'];
+        console.log(uNovel);
  if (uNovel===novel[0]){
   alert ('yes it\'s one of them ,you\'re a great guesser');
      i2=i2+1;
@@ -119,7 +119,7 @@ for (var i=0; i<5; i++){
     console.log(i2);
     break
  }else{
-     uNovel=prompt ('try it again');
+     alert('try it again');
     }
  
 }
