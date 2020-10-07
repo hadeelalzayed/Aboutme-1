@@ -94,7 +94,7 @@ for (var i= 0; i<4; i++) {
     }
 }
     alert (' the correct anewer is 8 ');
-    for (var i=0; i<=5; i++){
+    for (var i=0; i<6; i++){
         var uNovel = prompt ('my most liked novels are five novels,can you guess just one of them?').toLowerCase();
         var novel = ['gone with the wind','the perfume','pride and prejudice','the dafenshy code','the animal farm'];
         console.log(uNovel);
